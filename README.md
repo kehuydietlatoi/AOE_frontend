@@ -1,7 +1,19 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Technologie:
+Typescript + React 
+## Some explanation:
+- For changing colour theme or style, you can easily change it in file theme.ts.
+- There are also tslint and prettier for "convenient" in developing.
+- Solutions explanations:
+data are stored in public folder, so we can load it asynchronously in json format.
+ObjectModel for Card in CardItem.tsx.
+Grid Layout is used for the view as in mockup design.
+For unit test i didn't test it because i have no experience in frontend testing.
+For sort functionality, i provide a sort function, where other developers can easily 
+change it as needed.
+For submit button, i just post it as json data to mockup api (as i understand).
 ## Available Scripts
 
 In the project directory, you can run:
